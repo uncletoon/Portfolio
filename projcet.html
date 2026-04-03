@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Patience</title>
+</head>
+<body >
+    <!-- Navbar -->
+    <nav class="nav-bar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/Screenshot 2026-04-03 215247.png" alt="Logo">
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="link active">Home</a>
+                <a href="#about" class="link">About</a>
+                <a href="#services" class="link">Services</a>
+                <a href="#projects" class="link">Projects</a>
+                <a href="#contact" class="link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle Theme" style="background: none; border: none; cursor: pointer; color: white; display:flex; align-items:center; margin-right: 15px;">
+                    <img id="theme-icon" src="images/mode.png" alt="Toggle Theme" style="width: 24px; height: auto;">
+                </button>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>I love to create<br>beautiful and<br>efficient websites</h1>
+                <p>Hello! I'm Patience, a passionate developer crafting exceptional digital experiences.</p>
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary">Discover</a>
+                    <a href="#" class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/Image portfolio.jpg" alt="Patience Portrait">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="about" class="skills section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hi there, I'm Patience.</h2>
+                <p>And I love to create beautiful and efficient real system, and websites for my customers. I love going through the entire process with the customer from concept, to design and then development and launch.</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend Development</h3>
+                    <ul>
+                        <li>Node.js & Express</li>
+                        <li>Python & Django</li>
+                        <li>PostgreSQL & SQL Server</li>
+                        <li>RESTful APIs</li>
+                        <li>Git&GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Offered Services</h2>
+                <p>Web design and development have been my bread and butter for more than 2+ years. During that time I've discovered that 
+                    I can help startups and companies with the following services</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><img src="images/ux.png" alt="Design" style="width:40px; height:auto;"></div>
+                    <h3>Design</h3>
+                    <p>Successful online projects start with good design.I establishes a solid foundation for future development and allows for long term growth</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><img src="images/programming.png" alt="Development" style="width:40px; height:auto;"></div>
+                    <h3>Development</h3>
+                    <p>I can code my own designs or even use the customer's design as base.My focus is to generate clean code that's well structured for reliability</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><img src="images/launch.png" alt="Deploy" style="width:40px; height:auto;"></div>
+                    <h3>Deploy</h3>
+                    <p>I provide reliable and efficient eployment solutions that take your project from development to a live, fully functional product.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img bg-pink">
+                        <div class="placeholder">E-commerce UI</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sell Online Like A Pro</h3>
+                        <p>A full-featured e-commerce platform.</p>
+                        <a href="#" class="details-link">Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img bg-orange">
+                        <div class="placeholder">Booking App</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Book Easy</h3>
+                        <p>Streamlined booking and scheduling.</p>
+                        <a href="#" class="details-link">Details →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img bg-purple">
+                        <div class="placeholder">Dashboard</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Admin Analytics</h3>
+                        <p>Interactive data visualization dashboard.</p>
+                        <a href="#" class="details-link">Details →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact me</h2>
+                <p>For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me your message using the following email: <a href="mailto:hello@example.com" style="color: blue;">hello@example.com</a></p>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="social-links" style="display: flex; gap: 15px; align-items: center;">
+                <a href="#" aria-label="Facebook"><img src="images/facebook-round-color-icon.png" alt="Facebook" style="width: 30px; height: auto;"></a>
+                <a href="#" aria-label="Instagram"><img src="images/ig-instagram-icon.png" alt="Instagram" style="width: 30px; height: auto;"></a>
+                <a href="#" aria-label="GitHub"><img src="images/github-icon.png" alt="GitHub" style="width: 30px; height: auto;"></a>
+            </div>
+            <p>&copy; 2026 Too Creative. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="images/index.js"></script>
+
+</body>
+</html>
