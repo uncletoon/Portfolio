@@ -15,7 +15,7 @@ const currentTheme = localStorage.getItem("theme");
 if (currentTheme) {
   document.documentElement.setAttribute("data-theme", currentTheme);
   if (currentTheme === "dark") {
-    themeIcon.src = "dark-mode.png";
+    themeIcon.src = "images/dark-mode.png";
   }
 }
 
@@ -26,5 +26,6 @@ themeToggleBtn.addEventListener("click", () => {
   document.documentElement.setAttribute("data-theme", newTheme);
   localStorage.setItem("theme", newTheme);
 
-  themeIcon.src = newTheme === "dark" ? "dark-mode.png" : "mode.png";
+  themeIcon.src =
+    newTheme === "dark" ? "images/dark-mode.png" : "images/mode.png";
 });
