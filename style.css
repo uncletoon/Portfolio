@@ -146,6 +146,21 @@ img {
     transition: all 0.3s;
 }
 
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.theme-toggle img {
+    width: 24px;
+    height: auto;
+}
+
 .theme-toggle:hover {
     transform: scale(1.1);
 }
@@ -319,6 +334,11 @@ img {
     border-radius: 8px;
 }
 
+.service-icon img {
+    width: 40px;
+    height: auto;
+}
+
 .service-card h3 {
     margin-bottom: 15px;
     font-size: 1.3rem;
@@ -357,6 +377,13 @@ img {
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
+    overflow: hidden;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .bg-pink { background: linear-gradient(135deg, #FF6B6B, #FF8E53); }
@@ -631,4 +658,82 @@ footer p {
 }
 [data-theme="dark"] .btn-secondary {
     background-color: #212226;
+}
+
+/* Blog Specific Styles */
+.blog-hero {
+    min-height: 40vh;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.blog-hero .section-title {
+    margin-bottom: 0;
+}
+
+.blog-hero h1 {
+    font-size: 3rem;
+    color: var(--text-light);
+    margin-bottom: 10px;
+}
+
+.blog-hero p {
+    color: #a0aec0;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.blog-projects {
+    min-height: 60vh;
+}
+
+.post-date {
+    color: var(--primary-blue);
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.post-title {
+    margin-top: 8px;
+}
+
+a.text-blue {
+    color: blue;
+}
+
+/* Coming Soon Page Specific Styles */
+.coming-soon-hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.coming-soon-content {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coming-soon-title {
+    font-size: 3.5rem;
+    color: var(--text-light);
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.coming-soon-text {
+    font-size: 1.2rem;
+    color: #a0aec0;
+    margin-bottom: 30px;
+}
+
+.coming-soon-btn {
+    justify-content: center;
+    width: 100%;
 }
